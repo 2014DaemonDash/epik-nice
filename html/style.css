@@ -89,6 +89,13 @@ p { margin: 0 0 10px; }
 
 #personlPortfolio p  {margin:0 0 15px 0;}
 
+#userInformation {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
 #linkList { background: transparent; padding: 0; margin: 0; width: 190px; position: absolute; top: 350px; right: 0; font-size: 90%; }
 
 #linkList ul { margin: 0; padding: 0; list-style: none; }

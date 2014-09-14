@@ -11,8 +11,15 @@ if (mysqli_connect_errno()) {
 
 $username = mysqli_real_escape_string($con, $_POST['username']);
 $password = mysqli_real_escape_string($con, $_POST['pass1']);
-$email = mysqli_real_escape_string($con, $_POST['email']);
-$phonenumber = mysqli_real_escape_string($con, $_POST['phonenumber']);
+
+if($username == ""){
+echo "You Suck";
+mysqli_close($con);
+header('Location:downloads.html');
+}
+
+$result = mysqli_query($con, "SELECT * FROM Users WHERE Users = '$username'");
+
 
 $sql="INSERT INTO users (Users, Password, Email, Phone_Number)
 VALUES ('$username', '$password', '$email', '$phonenumber')";
