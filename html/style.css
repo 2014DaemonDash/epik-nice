@@ -39,22 +39,55 @@ p { margin: 0 0 10px; }
 	padding: 10px;
 }
 
-#supportingText {
+#login {
 	margin: 0 205px 0 0;
 	background-color: #DFE3C6;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
-#supportingText p { margin: 0 20px 15px 20px; }
 
-#explanation h3 { height: 30px; margin: 0; padding: 0; }
-#explanation h3 span { margin: 0; padding: 20px; }
+#aboutUs {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#aboutUs p { margin: 0 0px 15px 0px; }
 
-#participation h3 { height: 37px; margin: 0; padding: 0; }
-#participation h3 span { margin: 0; padding: 20px; }
+#contactUs {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#contactUs p { margin: 0 0px 15px 0px; }
 
-#benefits h3 { height: 37px; margin: 0; padding: 0; }
-#benefits h3 span { margin: 0; padding: 20px; }
+#downloads {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
 
+#downloads p {margin:0 0 15px 0;}
+
+#registration {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+#registration p  {margin:0 0 15px 0;}
+
+#personlPortfolio {
+	margin: 0 205px 0 0;
+	background-color: #DFE3C6;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+#personlPortfolio p  {margin:0 0 15px 0;}
 
 #linkList { background: transparent; padding: 0; margin: 0; width: 190px; position: absolute; top: 350px; right: 0; font-size: 90%; }
 
@@ -67,18 +100,7 @@ p { margin: 0 0 10px; }
 	background-color: #ff3333;
 	background-position: 0 0;
 }
-#linkList li:hover a { color: #FFF; }
 
-#lselect { color: #377774; }
-#lselect li:hover { color: #656565; }
-#lselect li a { text-transform: uppercase; font: bold 110% arial, helvectica, sans-serif; display: block; margin: 0; padding: 0; }
-#lselect li:hover a { color: #FFF; }
-#lselect li a.c:link, #lselect li a.c:visited {	display: inline; font-weight: normal; text-transform: none; font-size: 100%; color: #377774; }
-#lselect li:hover a.c { color: #FFB9CB; }
 
-h3.archives { height: 30px; margin: 0; padding: 0; }
-h3.archives span {
-	margin: 0;
-	padding: 10px;
-	color: #FFFFFF;
+
 }
