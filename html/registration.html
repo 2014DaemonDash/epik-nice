@@ -18,6 +18,7 @@
 <form action="loginSubmit.php" method="post">
 Username: <input type="text" name="username"><br>
 <div class="Wrapper">
+    <form>
         <div class="fieldWrapper">
             <label for="pass1">Password:</label>
             <input name="pass1" id="pass1" type="password">
@@ -28,6 +29,7 @@ Username: <input type="text" name="username"><br>
             <span id="confirmMessage" class="confirmMessage"></span>
         </div>
 
+    </form>
 </div>
 Phone Number:<input type ="text" name="phonenumber"><br>
 Phone Carrier:<select><option>Verizon</option><option>AT&T</option><option>Sprint</option><option></select><br>
@@ -71,10 +73,12 @@ function checkPass()
 		<div id="linkList2">
 			<div id="lselect">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aboutus.html">About Us</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-					<li><a href="registration.html">Registration</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="personalPortfolio.html">Personal Portfolio</a></li>
+                    <li><a href="userinformation.html">User Information</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="registration.html">Registration</a></li>
                     <li><a href="downloads.html">Downloads</a></li>
 				</ul>
 			</div>
