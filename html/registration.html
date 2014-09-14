@@ -1,0 +1,96 @@
+<!DOCTYPE 
+<html>
+<head>
+	<meta>
+	<title>Vampire Energy Saver</title>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+<div id="container">
+	<div id="intro">
+		<div id="pageHeader">
+
+		</div>
+	</div>
+<H1 style="text-align:left">Registration
+</H1>
+<form action="demo_form.asp">
+Username: <input type="text"><br>
+<div class="Wrapper">
+    <form>
+        <div class="fieldWrapper">
+            <label for="pass1">Password:</label>
+            <input name="pass1" id="pass1" type="password">
+        </div>
+        <div class="fieldWrapper">
+            <label for="pass2">Confirm Password:</label>
+            <input name="pass2" id="pass2" onkeyup="checkPass(); return false;" type="password">
+            <span id="confirmMessage" class="confirmMessage"></span>
+        </div>
+
+    </form>
+</div>
+Phone Number: <input type="password" maxlength="3" size = 3> - <input type="password" maxlength="3" size = 3> - <input type="password" maxlength="4" size = 4><br>
+Phone Carrier:<select><option>Verizon</option><option>AT&T</option><option>Sprint</option><option></select><br>
+Social Security Number: <input type="password" maxlength="3" size = 3> - <input type="password" maxlength="2" size = 2> - <input type="password" maxlength="4" size = 4><br>
+<input type="submit" value="Submit">
+
+</form>
+<script>
+function checkPass()
+{
+    //Store the password field objects into variables ...
+    var pass1 = document.getElementById('pass1');
+    var pass2 = document.getElementById('pass2');
+    //Store the Confimation Message Object ...
+    var message = document.getElementById('confirmMessage');
+    //Set the colors we will be using ...
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+    //Compare the values in the password field
+    //and the confirmation field
+    if(pass1.value == pass2.value){
+        //The passwords match.
+        //Set the color to the good color and inform
+        //the user that they have entered the correct password
+        pass2.style.backgroundColor = goodColor;
+        message.style.color = goodColor;
+        message.innerHTML = "Passwords Match!"
+    }else{
+        //The passwords do not match.
+        //Set the color to the bad color and
+        //notify the user.
+        pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "Passwords Do Not Match!"
+    }
+}  
+</script>
+
+		<div id="linkList">
+		<div id="linkList2">
+			<div id="lselect">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="registration.html">Registration</a></li>
+				</ul>
+			</div>
+
+			<div id="larchives">
+				<h3 class="archives"><span>Links</span></h3>
+				<ul>
+					<li><a href="">Lorem Ipsum</a></li>
+					<li><a href="">Lorem Ipsum</a></li>
+					<li><a href="">Lorem Ipsum</a></li>
+					<li><a href="">Lorem Ipsum</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+</body>
+</html> 
